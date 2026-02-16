@@ -29,17 +29,17 @@ Once uploaded, your external code will be available to your notebooks as a packa
 
 **Import the whole package:**
 ```python  
-import PYTHON_PROJ_NAME
+import test
 ```
 
 **Import function:**
 ```python  
-from PYTHON_PROJ_NAME import my_script
+from test import my_script
 ```
 
 **Import submodule:**
 ```python  
-from PYTHON_PROJ_NAME import subpackage
+from test import subpackage
 ```
 
 ---
