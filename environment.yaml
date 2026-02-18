@@ -1,10 +1,10 @@
 name: test
 channels:
-  - conda-forge
-  - defaults
+- conda-forge
+- defaults
 dependencies:
-  - python=PYTHON_VERSION
-  - conda
-  - git
-  - pip
-  - jupyterlab=JUPYTERLAB_VERSION
+- python=3.14.2
+- conda
+- git
+- pip
+- jupyterlab=4.4.0
