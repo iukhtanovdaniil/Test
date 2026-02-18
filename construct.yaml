@@ -15,8 +15,15 @@ extra_files:
 - app/python_scripts/hide_code_cells.py: Test/hide_code_cells.py
 - app/python_scripts/include_path.py: Test/include_path.py
 - construct.yaml: Test/construct.yaml
+- notebooks/AFT_tracks_last_version/AFT_tracks_last_version.ipynb: Test/notebooks/AFT_tracks_last_version/AFT_tracks_last_version.ipynb
 - notebooks/notebook_latest_versions.yaml: Test/notebook_latest_versions.yaml
 - requirements.txt: Test/requirements.txt
+- setup.py: Test/setup.py
+- src/AFT_figures.py: Test/src/test/AFT_figures.py
+- src/AFT_metrics.py: Test/src/test/AFT_metrics.py
+- src/AFT_tools.py: Test/src/test/AFT_tools.py
+- src/__init__.py: Test/src/test/__init__.py
+- src/segmentation.py: Test/src/test/segmentation.py
 post_install: app/bash_bat_scripts/post_install.bat # [win]
 post_install: app/bash_bat_scripts/post_install.sh # [unix]
 pre_uninstall: app/bash_bat_scripts/pre_uninstall.bat # [win]
